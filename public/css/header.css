@@ -1,0 +1,14 @@
+.tab_view{
+/*  font-weight:bolder !important;*/
+  color:white;
+  text-decoration: none !important 
+ } 
+.td_view{
+  background-color:#FF0000;
+  border-radius: 7px 7px 1px 1px;
+  text-align: center;
+  vertical-align: middle;
+  width: 120px;
+  height:40px;
+ }
+  
