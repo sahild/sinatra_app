@@ -14,13 +14,13 @@ ul li {
 .barousel {
     background: url("../images/bg_banner.gif") repeat scroll 0 0 transparent;
     border-top: 3px solid #000000;
-    height: 401px;
+    height: 276px;
     margin-bottom: 0;
     position: relative;
     width: 960px;
 }
 .barousel_image {
-    height: 375px;
+    height: 250px;
     position: absolute;
     width: 960px;
     z-index: 10;

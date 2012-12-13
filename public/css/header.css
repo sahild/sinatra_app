@@ -1,14 +1,39 @@
-.tab_view{
-/*  font-weight:bolder !important;*/
-  color:white;
-  text-decoration: none !important 
- } 
-.td_view{
-  background-color:#FF0000;
-  border-radius: 7px 7px 1px 1px;
-  text-align: center;
-  vertical-align: middle;
-  width: 120px;
-  height:40px;
- }
- 
+.tab_view {
+	/*  font-weight:bolder !important;*/
+	color: white;
+	text-decoration: none !important
+}
+.td_view {
+	background-color: #FF0000;
+	border-radius: 7px 7px 1px 1px;
+	text-align: center;
+	vertical-align: middle;
+	width: 120px;
+	height: 40px;
+}
+.th_view_table {
+	background-color: #FF0000;
+	border-radius: 7px 7px 1px 1px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid gray;
+}
+
+.td_view_bullet_table {
+	background: none no-repeat 0 3px;
+	background-image: url(bullet_l.png);
+	border-bottom: 1px solid gray;
+	padding-left: 25px;
+	color: #666;
+}
+
+.table1 {
+	background-color: white;
+	width: 100%;
+	border-radius: 7px;
+	border: 1px solid gray;
+}
+.hover{
+	color: red;
+	cursor: pointer;
+}
