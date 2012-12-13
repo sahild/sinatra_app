@@ -1,6 +1,7 @@
 <html>
 	<head>
 	 <link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
+	 <link rel="stylesheet" type="text/css" href="css/barousel.css" media="screen" />
 	</head>
 	<body style="background-color:grey">
 		<div class="header" id="header" style="width: 960px; margin: 0pt auto; background-color:white">
@@ -21,7 +22,9 @@
 				</tr>
 			</table>
 		</div>
-		<%= yield %>
+		<div style="width: 960px; margin: 0pt auto;">
+		  <%= yield %>
+		</div>
 	</body>
 </html>
 
