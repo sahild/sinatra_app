@@ -24,29 +24,67 @@
 					</tr>
 				</table>
 				<div>
-				<table class='table1' style="margin-top: 15px">
-					<tr>
-						<th class='th_view_table'>
-						<div class='tab_view'>
-							Contact Us
-						</div></th>
-					</tr>
-					<tr>
-						<td>
-							<p class="company_name">Bhardawaj and Sons</p>
-							<p class="address">256/31, Sector 9, New bahadurgarh, Haryana, Pin:124001</p>
-							<p class="address"><b class="b2">Mobile:</b>+919654737878, +917357283727</p>
-							<p class="address"><b class="b2">Email:</b>sahil134@gmail.com, lpk@gmail.com</p>
-						
-						<td>	
-					</tr>
-				</table>
+					<table class='table1' style="margin-top: 15px">
+						<tr>
+							<th class='th_view_table'>
+							<div class='tab_view'>
+								Contact Us
+							</div></th>
+						</tr>
+						<tr>
+							<td>
+							<p class="company_name">
+								Bhardawaj and Sons
+							</p>
+							<p class="address">
+								256/31, Sector 9, New bahadurgarh, Haryana, Pin:124001
+							</p>
+							<p class="address">
+								<b class="b2">Mobile:</b>+919654737878, +917357283727
+							</p>
+							<p class="address">
+								<b class="b2">Email:</b>sahil134@gmail.com, lpk@gmail.com
+							</p><td>
+						</tr>
+					</table>
+				</div></td>
+				<td style="padding:10px;" width="50%">
+				<p>
+					<b class='company_name'>Bhardawaj and Sons : </b><b class='b2' style="border-bottom: 1px solid black"> A Brief Introduction Of Who We Are</span></b>
+				<p class="company_image"><img src="images/9417.jpg" width="184" height="132" title="Company building image" alt="Company building image">
+				</p>
+				<p class='company_desc' style="text-align: justify;">
+					Bhardawaj Estate is a renowned name in the Real Estate Sector in Bahadurgarh. We have carved a niche for ourselves as a Property Dealer in Bahadurgarh and provide vital services in Buying, Selling, Renting and Leasing Properties. At each step the company strives to uphold long lasting relations with the clients and provide world class services through hard work and dedication. We have a huge experience in the field and the experience has honed our skills to the level of perfection.
+				</p>
+				<p class='company_desc'>
+					The company guides the customers in finding the property that meets their specifications at reasonable market price and meets their demands with dexterity. Buying and Selling lands and plots, residential house & commercial shops in Bahadurgarh has become easier with our well-organized database of Real Estate Market.  The company is renowned among the clients as a distinguished Real Estate Consultant in dealing in all kinds of properties. We have become a leading name in the field through our dedication and client focused approach.
+				</p></td>
+				<td style="padding:10px;" width="25%">
+				<div style="overflow:auto;height:50px;">
+					<table class='table1'>
+						<thead>
+							<tr>
+								<th class='th_view_table'>
+								<div class='tab_view'>
+									Featured Properties
+								</div></th>
+							</tr>
+						</thead>
+						<tbody>
+							<%@properties.each_value do |prop|%>
+							<tr>
+								<td class="td_view_bullet_table"> <%= prop["address"]%> </td>
+							</tr>
+							<%end%>
+						</tbody>
+					</table>
 				</div>
-				</td>
-				<td style="padding:10px;" width="50%"> Second Table will come here </td>
-				<td style="padding:10px;" width="25%"> Third Table will come here </td>
+				<p>
+					<a href=""> <img src="images/req.jpg"> </a>
+				</p>
+				<p>
+					<a href=""> <img src="images/prop.jpg"> </a>
+				</p></td>
 			</tr>
 		</tbody>
-		</tbody>
-		
 </div>

@@ -1,0 +1,31 @@
+properties:
+  0:
+    type: "Residential Apartment"
+    area: "VASANT VIHAR"
+    size: "1500 sq ft"
+    address: "236/31, Palam Street Vasant Vihar"
+  1:
+    type: "Plot"
+    area: "Select City Walk"
+    size: "1800 sq ft"
+    address: "236/22 Top Floor Select City Walk"
+  2:
+    type: "Indepndent Villa"
+    area: "Sector 56 Gurgaon"
+    size: "5500 sq ft"
+    address: "236/31,Sector 56 Gurgaon"
+  4:
+    type: "Residential Apartment"
+    area: "VASANT VIHAR"
+    size: "1500 sq ft"
+    address: "236/31, Palam Street Vasant Vihar"
+  5:
+    type: "Plot"
+    area: "Select City Walk"
+    size: "1800 sq ft"
+    address: "236/22 Top Floor Select City Walk"
+  6:
+    type: "Indepndent Villa"
+    area: "Sector 56 Gurgaon"
+    size: "5500 sq ft"
+    address: "236/31,Sector 56 Gurgaon"

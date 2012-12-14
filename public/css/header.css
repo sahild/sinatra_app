@@ -33,25 +33,34 @@
 	border-radius: 7px;
 	border: 1px solid gray;
 }
-.hover{
+.hover {
 	color: red;
 	cursor: pointer;
 }
-.company_name{
-	color:brown;
-	font-size:16px;
-	font-weight:bolder;
-	text-align:center;
+.company_name {
+	color: brown;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
 	border-bottom: 1px solid gray;
 }
-.address{
-	color:gray;
-	font-size:14px;
-	text-align:center;
+.address {
+	color: gray;
+	font-size: 14px;
+	text-align: center;
 	border-bottom: 1px solid gray;
 }
-.b2{
-	color:black;
-	font-size:16px;
-    margin-right:10px;	
+.b2 {
+	color: black;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.company_image {
+	float: right;
+	margin: 0 0 5px 10px;
+	display: inline;
+}
+.company_desc {
+	color: gray;
+	font-size: 14px;
 }
