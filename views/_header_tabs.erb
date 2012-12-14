@@ -1,0 +1,8 @@
+<table>
+	<tr>
+		<% @tab_array=[["Home",""],["About Us",""],["Services",""],["Find Property",""],["Post Your Property",""],["Post Your Requirement",""],["Contact Us",""], ["Enquiry",""]] %>
+		<%@tab_array.each do |elem|%>
+		<td class='td_view'><a href="" class='tab_view'><%= elem[0]%></a></td>
+		<%end%>
+	</tr>
+</table>
