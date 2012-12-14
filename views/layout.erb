@@ -4,12 +4,15 @@
 		<link rel="stylesheet" type="text/css" href="css/barousel.css" media="screen" />
 	</head>
 	<body style="background-color:gray">
-		<div class="header" id="header" style="width: 960px; margin: 0pt auto; background-color:white">
-			<%= erb(:_header_top,:layout => false)%>
-			<%= erb(:_header_tabs,:layout => false)%>
-			<%= erb(:_barousel,:layout => false)%>
+		<div class="header" id="header" style="width: 960px; margin: 0pt auto; background-color:silver">
+			<div>
+				<%= erb(:_header_top,:layout => false)%>
+				<%= erb(:_header_tabs,:layout => false)%>
+				<%= erb(:_barousel,:layout => false)%>
+			</div>
+			<%= yield %>
+			<%= erb(:_footer,:layout => false)%>
 		</div>
-		<%= yield %>
 		<script type="text/JavaScript" src="javascript/jquery-1.8.3.min.js"></script>
 		<script type="text/JavaScript" src="javascript/jquery.barousel.min.js"></script>
 		<script type="text/JavaScript" src="javascript/front_slider.js"></script>
